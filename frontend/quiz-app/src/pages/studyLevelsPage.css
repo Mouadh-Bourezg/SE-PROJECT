@@ -1,0 +1,39 @@
+/* Style for the entire container */
+.studyLevels-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid container for study levels */
+.studyLevels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Style for each study level box */
+.studyLevel-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for each box */
+.studyLevel-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 600px) {
+    .studyLevels-grid {
+        grid-template-columns: 1fr;  /* Single column on smaller screens */
+    }
+}
