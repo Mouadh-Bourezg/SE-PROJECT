@@ -12,6 +12,10 @@
     "moduleDetection": "force",
     "noEmit": true,
 
+    /* Allow JavaScript */
+    "allowJs": true,
+    "checkJs": false,
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
