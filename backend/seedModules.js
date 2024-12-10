@@ -5,15 +5,30 @@ const Module = require('./models/Module');
 
 // Sample data for modules
 const modules = [
-  { moduleName: 'Mathematics', studyLevel: 'Primary' },
-  { moduleName: 'Science', studyLevel: 'Primary' },
-  { moduleName: 'History', studyLevel: 'Primary' },
-  { moduleName: 'Mathematics', studyLevel: 'Secondary' },
-  { moduleName: 'Physics', studyLevel: 'Secondary' },
-  { moduleName: 'Chemistry', studyLevel: 'Secondary' },
-  { moduleName: 'Computer Science', studyLevel: 'University' },
-  { moduleName: 'Economics', studyLevel: 'University' },
-  { moduleName: 'Artificial Intelligence', studyLevel: 'University' }
+  {
+    moduleName: 'Mathematics',
+    studyLevel: 'Second%20Grade',
+    description: 'Learn about numbers, shapes, and patterns.',
+    icon: '➕',
+  },
+  {
+    moduleName: 'Physics',
+    studyLevel: 'Second%20Grade',
+    description: 'Understand the laws of nature and the universe.',
+    icon: '🌌',
+  },
+  {
+    moduleName: 'Chemistry',
+    studyLevel: 'Second%20Grade',
+    description: 'Explore the composition and properties of matter.',
+    icon: '🧪',
+  },
+  {
+    moduleName: 'Biology',
+    studyLevel: 'Second%20Grade',
+    description: 'Study living organisms and their interactions.',
+    icon: '🌱',
+  },
 ];
 
 // Function to seed the database
